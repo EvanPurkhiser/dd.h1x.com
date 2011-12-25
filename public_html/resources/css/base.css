@@ -186,7 +186,7 @@ body {
 }
 
 #projects .mask {
-	margin: 0 40px;
+	margin: 0 45px;
 	height: 60px;
 	width: 470px;
 	overflow: hidden;
@@ -213,16 +213,13 @@ body {
 		height: 52px;
 		outline: none;
 		text-decoration: none;
-
 		background: #f0f0f0;
-
 		color: #888;
 		text-shadow: #fff 0 1px 0;
 		text-align: center;
 		line-height: 52px;
-		-webkit-border-radius: 3px;
-		-moz-border-radius: 3px;
 		border-radius: 3px;
+		box-shadow: 0 1px 0 #eaeaea;
 	}
 
 	#projects .mask a:hover {
