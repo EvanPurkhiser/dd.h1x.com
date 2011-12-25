@@ -35,8 +35,6 @@ $(document).ready(function() {
 		$first = $first.prev();
 		$last  = $last.prev();
 
-		console.log($first, $last);
-
 		// Remove the element we cloned from the end
 		$container.queue(function () {
 			$last.next().remove();
@@ -59,8 +57,6 @@ $(document).ready(function() {
 		$last  = $last.next();
 		$first = $first.next();
 
-		console.log($first, $last);
-
 		// Remove the element we cloned from the begining
 		$container.queue(function () {
 			$first.prev().remove();
@@ -70,5 +66,19 @@ $(document).ready(function() {
 		return false;
 	});
 
+	// Left and right key events
+	$(document).bind('keydown', function(event)
+	{
+		switch(event.keyCode)
+		{
+			// Left arrow key
+			case 37: $('#projects .arrow.left').click();
+			break;
+
+			// Right arrow key
+			case 39: $('#projects .arrow.right').click();
+			break;
+		}
+	});
 
 });
