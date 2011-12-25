@@ -1,0 +1,231 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	position: relative;
+	top: 50%;
+	width: 560px;
+	margin: 0 auto;
+	margin-top: -133px;
+	font: 15px 'Cabin',arial,sans-serif;
+	color: #333;
+}
+
+#error {
+	text-align: center;
+	font-family: 'News Cycle';
+	font-size: 100px;
+	line-height: 120px;
+	height: 120px;
+	margin-top: -60px;
+	color: #ccc;
+}
+
+	#error b {
+		color: #cc9696;
+	}
+
+/* Page heading */
+
+#header {
+	line-height: 34px;
+	overflow: hidden;
+	padding: 3pxheader
+}
+
+	#header h1 {
+		float: left;
+		font-weight: 500;
+		font-size: 22px;
+	}
+
+		#header h1 b {
+			font-weight: 500;
+			color: #f83780;
+		}
+
+	#header ul {
+		float: right;
+		list-style: none;
+	}
+
+	#header li {
+		float: left;
+		margin: 0 10px;
+		font-size: 12px;
+	}
+
+	#header li a {
+		text-decoration: none;
+		color: #555;
+		padding-left: 18px;
+		display: block;
+		outline: none;
+		position: relative;
+	}
+
+		#header li a::before {
+			content: '\0020';
+			position: absolute;
+			top: 12px;
+			background: url(../img/icons.png);
+			opacity: 0.75;
+		}
+
+			#header li a:hover::before {
+				opacity: 1.0;
+			} 
+
+		#header li a.mail::before {
+			left: 1px;
+			width: 12px;
+			height: 9px;
+			background-position: 0 0;
+		}
+
+		#header li a.save::before {
+			left: 3px;
+			width: 9px;
+			height: 9px;
+			background-position: 0 -9px;
+		}
+
+	#header li a:hover,
+	#header li a.current {
+		color: #000;
+	}
+
+/* About */
+
+#about {
+	font-family: 'News Cycle';
+	font-size: 28px;
+	line-height: 45px;
+	font-weight: normal;
+	margin-top: 12px;
+	text-align: center;
+}
+
+	#about span.blue {
+		color: #38c4ff;
+	}
+
+	#about span.orange {
+		color: #ff8338;
+	}
+
+	#about span.green {
+		color: #72db48;
+	}
+
+/* Projects slider */
+
+#projects {
+	margin-top: 25px;
+}
+
+#projects .arrow {
+	display: block;
+	width: 30px;
+	line-height: 60px;
+	text-indent: -9999px;
+	overflow: hidden;
+	position: relative;
+	outline: none;
+}
+
+	#projects .arrow::before,
+	#projects .arrow::after {
+		content: '\0020';
+		position: absolute;
+		top: 14px;
+		border-style :solid;
+		border-width: 16px;
+	}
+
+	#projects .arrow.left::before {
+		right: 7px;
+		border-color: transparent #aaa transparent transparent;
+	}
+
+	#projects .arrow.left::after {
+		right: 3px;
+		border-color: transparent #fff transparent transparent;
+	}
+
+	#projects .arrow.left:hover::before {
+		border-color: transparent #555 transparent transparent;
+	}
+
+	#projects .arrow.right::before {
+		left: 7px;
+		border-color: transparent transparent transparent #aaa;
+	}
+
+	#projects .arrow.right::after {
+		left: 3px;
+		border-color: transparent transparent transparent #fff;
+	}
+
+	#projects .arrow.right:hover::before {
+		border-color: transparent transparent transparent #555;
+	}
+
+#projects .arrow.left {
+	float: left;
+}
+
+#projects .arrow.right {
+	float: right;
+}
+
+#projects .mask {
+	margin: 0 40px;
+	height: 60px;
+	width: 470px;
+	overflow: hidden;
+	position: relative;
+}
+
+#projects .mask ul {
+	list-style: none;
+	position: absolute;
+	width: 4000px;
+	top: 0;
+	left: 0;
+}
+
+	#projects .mask ul li {
+		float: left;
+		padding: 4px 8px;
+		border-right: 1px dotted #bbb;
+	}
+
+	#projects .mask a {
+		display: block;
+		width: 140px;
+		height: 52px;
+		outline: none;
+		text-decoration: none;
+
+		background: #f0f0f0;
+
+		color: #888;
+		text-shadow: #fff 0 1px 0;
+		text-align: center;
+		line-height: 52px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+	}
+
+	#projects .mask a:hover {
+		background: #eee;
+		color: #666;
+	}

@@ -1,0 +1,12 @@
+# General ignored files
+Thumbs.db
+*.sass-cache
+*.bak
+
+# Sublime Text project files
+*.sublime-project
+*.sublime-workspace
+
+# Project specific ignored files
+.project
+public_html/file-dump/
