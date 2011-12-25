@@ -1,13 +1,10 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="UTF-8">
 		<title>Evan Purkhiser</title>
-		<link href='http://fonts.googleapis.com/css?family=Cabin:regular,500,bold' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Cabin:regular,500,bold|News+Cycle' rel='stylesheet' type='text/css' />
 		<link href="/resources/css/base.css" rel="stylesheet" type="text/css" />
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-		<script type="text/javascript" src="/resources/js/base.js"></script>
 	</head>
 	<body>
 		<div id="header">
@@ -37,5 +34,8 @@
 				</ul>
 			</div>
 		</div>
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script type="text/javascript" src="/resources/js/base.js"></script>
 	</body>
 </html>
