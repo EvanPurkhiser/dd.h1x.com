@@ -14,7 +14,7 @@
 				<li><a class="mail" href="mailto:evanpurkhiser@gmail.com">Contact Me</a></li>
 			</ul>
 		</div>
-		
+
 		<h1 id="about">
 			Hello there! I'm a <span class="blue">web developer</span> from Akron, Ohio.
 			Sometimes I'm considered a <span class="orange">code monkey</span>, other
