@@ -10,7 +10,8 @@
 		<div id="header">
 			<h1>Evan <b>Purkhiser</b></h1>
 			<ul>
-				<li><a class="save" href="file-dump/resume.pdf">My Resume</a></li>
+				<li><a class="github" href="http://github.com/EvanPurkhiser">GitHub</a></li>
+				<li><a class="save" href="/file-dump/resume.pdf">My Resume</a></li>
 				<li><a class="mail" href="mailto:evanpurkhiser@gmail.com">Contact Me</a></li>
 			</ul>
 		</div>
