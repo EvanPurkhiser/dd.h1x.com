@@ -19,7 +19,7 @@
 		<h2 id="about">
 			Hello there! I'm a <span class="blue">web developer</span> from Akron, Ohio.
 			Sometimes I'm considered a <span class="orange">code monkey</span>, other
-			times a <span class="green">problem solver</span>. Either way I'm very happy.
+			times a <span class="green">problem solver</span>. Either way I'm quite happy.
 		</h2>
 
 		<div id="projects">
