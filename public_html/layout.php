@@ -3,8 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Evan Purkhiser</title>
-		<link href='http://fonts.googleapis.com/css?family=Cabin:regular,500,bold' rel='stylesheet' type='text/css' />
-		<link rel="stylesheet" media="screen" href="http://openfontlibrary.org/en/face/news-cycle" rel="stylesheet" type="text/css"/>
+		<link href='http://fonts.googleapis.com/css?family=Cabin:regular,500,bold|News+Cycle' rel='stylesheet' type='text/css' />
 		<link href="/resources/css/base.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
